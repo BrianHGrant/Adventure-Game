@@ -15,7 +15,4 @@ Simple text Adventure game in Java
 * N or NORTH : Go in North direction if available
 * W or WEST : Go in West direction if available
 
-
-
-
-
+Can also use a phrase with word, ie: `Go West` to go `West`
