@@ -28,7 +28,12 @@ public class Main {
 
         tempExit = new HashMap<>();
         tempExit.put("W", 1);
+        tempExit.put("E", 6);
         locations.put(3, new Location(3, "You are inside a building, a well house for a small spring", tempExit));
+
+        tempExit = new HashMap<>();
+        tempExit.put("W", 3);
+        locations.put(6, new Location(6, "You are at the pool, take a drink and chilax", tempExit));
 
 
         tempExit = new HashMap<>();
